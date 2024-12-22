@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TailwindCSS Review Page Bugra</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-gray-100 text-gray-900">
+    <!-- Navbar -->
+    <header class="bg-white shadow">
+      <div
+        class="container mx-auto px-4 py-3 flex justify-between items-center"
+      >
+        <nav class="flex space-x-4">
+          <a href="#" class="text-purple-600 border-b-2 border-purple-600"
+            >Link</a
+          >
+          <a href="#" class="hover:text-purple-600">Link</a>
+          <a href="#" class="hover:text-purple-600">Link</a>
+        </nav>
+        <button class="bg-purple-600 text-white px-4 py-2 rounded">
+          Log in
+        </button>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-gray-200 py-20 text-center">
+      <h1 class="text-4xl font-bold text-gray-800">
+        Quisquam necessita vel
+        <span class="text-purple-600">laborum doloribus</span> delectus
+      </h1>
+      <p class="text-gray-600 mt-4">
+        Cupiditate minima voluptate temporibus quia? Architecto beatae esse ab
+        amet vero eaque explicabo!
+      </p>
+      <div class="mt-6">
+        <a href="#" class="bg-purple-600 text-white px-6 py-3 rounded mr-4"
+          >Get started</a
+        >
+        <a
+          href="#"
+          class="text-purple-600 border border-purple-600 px-6 py-3 rounded"
+          >Learn more</a
+        >
+      </div>
+    </section>
+
+    <!-- Review Section -->
+    <section class="py-16">
+      <h2 class="text-2xl font-bold text-center text-gray-800 mb-10">
+        What our customers are saying about us
+      </h2>
+      <div
+        class="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6"
+      >
+        <!-- Single Card -->
+        <div class="bg-white shadow rounded-lg p-6 text-center">
+          <p class="text-gray-600 mb-4">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Voluptatibus, eligendi.
+          </p>
+          <h3 class="text-lg font-bold text-purple-600">Distinctio Animi</h3>
+          <p class="text-gray-500">Aliquam illum</p>
+        </div>
+
+        <div class="bg-white shadow rounded-lg p-6 text-center">
+          <p class="text-gray-600 mb-4">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Voluptatibus, eligendi.
+          </p>
+          <h3 class="text-lg font-bold text-purple-600">Distinctio Animi</h3>
+          <p class="text-gray-500">Aliquam illum</p>
+        </div>
+        <div class="bg-white shadow rounded-lg p-6 text-center">
+          <p class="text-gray-600 mb-4">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Voluptatibus, eligendi.
+          </p>
+          <h3 class="text-lg font-bold text-purple-600">Distinctio Animi</h3>
+          <p class="text-gray-500">Aliquam illum</p>
+        </div>
+        <div class="bg-white shadow rounded-lg p-6 text-center">
+          <p class="text-gray-600 mb-4">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Voluptatibus, eligendi.
+          </p>
+          <h3 class="text-lg font-bold text-purple-600">Distinctio Animi</h3>
+          <p class="text-gray-500">Aliquam illum</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section class="bg-gray-200 py-16">
+      <div class="container mx-auto">
+        <h2 class="text-2xl font-bold text-center text-gray-800 mb-6">
+          Contact us
+        </h2>
+        <form class="max-w-lg mx-auto bg-white shadow rounded-lg p-6">
+          <div class="mb-4">
+            <label for="name" class="block text-gray-700">Name</label>
+            <input
+              type="text"
+              id="name"
+              class="w-full mt-2 p-3 border border-gray-300 rounded-lg"
+              placeholder="Your name"
+            />
+          </div>
+          <div class="mb-4">
+            <label for="email" class="block text-gray-700">Email</label>
+            <input
+              type="email"
+              id="email"
+              class="w-full mt-2 p-3 border border-gray-300 rounded-lg"
+              placeholder="Your email"
+            />
+          </div>
+          <div class="mb-4">
+            <label for="message" class="block text-gray-700">Message</label>
+            <textarea
+              id="message"
+              class="w-full mt-2 p-3 border border-gray-300 rounded-lg"
+              placeholder="Message..."
+            ></textarea>
+          </div>
+          <button class="bg-purple-600 text-white px-6 py-3 rounded-lg w-full">
+            Send
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-white py-6">
+      <div class="container mx-auto text-center text-gray-600">
+        <p>© 2024 Toygar. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
